@@ -1,0 +1,30 @@
+/* Import Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('pokedex.css');
+
+*
+{
+    font-family: 'Roboto', 'sans-serif';
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #f6f8fc;
+}
+.content
+{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #FFF;
+}
+@media screen and (min-width: 768px)
+{
+    .content
+    {
+        max-width: 768px;
+        height: auto;
+        border-radius: 1rem;
+        margin: 0 auto;
+    }
+}
